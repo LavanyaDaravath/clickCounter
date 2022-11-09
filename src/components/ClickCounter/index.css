@@ -1,0 +1,59 @@
+.container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #2d3a35;
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 50px;
+  }
+}
+
+.count {
+  color: #c20a72;
+  font-size: 45px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.text {
+  color: gray;
+  font-size: 18px;
+  font-family: 'Roboto';
+  margin-top: 18px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .text {
+    font-size: 20px;
+  }
+}
+.button-container {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 3px;
+  border-width: 0px;
+  height: 50px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #007bff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointe;
+}
